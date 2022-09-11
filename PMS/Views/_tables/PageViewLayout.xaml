@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="System.Windows.Controls.PageViewLayout"
+             xmlns:Controls="clr-namespace:System.Windows.Controls"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Border>
+            <Grid>
+                <ComboBox x:Name="PageSizeOption" 
+                          SelectedIndex="0" 
+                          Margin="10, 0"
+                          Width="100"
+                          HorizontalAlignment="Left">
+                    <ComboBoxItem>10 </ComboBoxItem>
+                    <ComboBoxItem>25 </ComboBoxItem>
+                    <ComboBoxItem>50 </ComboBoxItem>
+                </ComboBox>
+                <StackPanel x:Name="PageSelector" 
+                            Orientation="Horizontal"
+                            HorizontalAlignment="Center">
+                    <Controls:ActionButton x:Name="FirstPage" 
+                                           FontFamily="Tahoma"
+                                           Text="&#xab;" />
+                    <Controls:ActionButton x:Name="PrevPage" 
+                                           FontFamily="Tahoma"
+                                           Text="&#x2039;" />
+                    <Controls:ActionButton x:Name="CurrentPageButton" 
+                                           FontFamily="Tahoma"
+                                           MinWidth="40"
+                                           Text="1" />
+                    <Controls:ActionButton x:Name="NextPage" 
+                                           FontFamily="Tahoma"
+                                           Text="&#x203a;" />
+                    <Controls:ActionButton x:Name="LastPage" 
+                                           FontFamily="Tahoma"
+                                           Text="&#xbb;" />
+                </StackPanel>
+            </Grid>
+        </Border>
+        <Border x:Name="ListContent" Grid.Row="1"></Border>
+    </Grid>
+    
+</UserControl>

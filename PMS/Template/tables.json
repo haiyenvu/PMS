@@ -1,0 +1,46 @@
+{
+  "Patient": {
+    "PatientID": { "width": 200},
+    "Name": { "width": 150},
+    "Age": { "width": 60},
+    "Gender": { "width": 80},
+    "PhoneNumber": { "width": 150 },
+    "DoctorName": {"width": 120},
+    "Email": {"width":200 },
+    "Address": { "width": 300}
+  },
+  "Doctor": {
+    "DoctorID": { "width": 200},
+    "Name": { "width": 150},
+    "Age": { "width": 60},
+    "Gender": { "width": 80},
+    "PhoneNumber": { "width": 150},
+    "Specialization": { "width": 150},
+    "Email": { "width": 200},
+    "Address": { "width": 300}
+    
+  },
+  "Hospital": {
+    "HospitalID": { "width": 200},
+    "Name": { "width": 150},
+    "PhoneNuber": { "width": 150},
+    "Email": { "width":200 },
+    "Address": { "width":300 }
+    
+  },
+  "MedicalRecord": {
+    "PatientName": { "width": 150},
+    "DiseaseName": { "width": 150},
+    "ListIndex": { "width": 300}
+
+  },
+  "Index": {
+    "Name": { "width": 150 },
+    "Value": { "width": 150 },
+    "Unit": { "width": 150 },
+    "LastMeasure": { "width": 200 }
+  }
+}
+  
+ 
+

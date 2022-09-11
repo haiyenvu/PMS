@@ -1,0 +1,48 @@
+{
+  "LoginInfo": {
+    "UserName": {},
+    "Password": {}
+  },
+  "Patient": {
+    "Name": { "inputSize": 33.33 },
+    "DateOfBirth": {
+      "inputSize": 33.33
+      
+    },
+    "Gender": { "inputSize": 33.33 },
+    "PhoneNumber": { "inputSize": 50 },
+    "Email": { "inputSize": 50 },
+    "Address": {}
+  },
+  "Doctor": {
+    "Name": { "inputSize": 33.33 },
+    "DateOfBirth": {"inputSize": 33.33},
+    "Gender": { "inputSize": 33.33 },
+    "Specialization": {},
+    "PhoneNumber": { "inputSize": 50 },
+    "Email": { "inputSize": 50 },
+    "Address": {}
+  },
+  "Hospital": {
+    "Name": {},
+    "PhoneNuber": {},
+    "Email": {},
+    "Address": {}
+    
+  },
+  "MedicalRecord": {
+    "PatientName": {},
+    "DiseaseName": {},
+    "ListIndex": {}
+
+  },
+  "Index": {
+    "Name": {
+      "input": "Combo",
+      "options": "Temperature;Pulse rate;Blood pressure;Blood glucose;Oxygen in human blood"
+    },
+    "Value": {},
+    "Unit": {},
+    "LastMeasure": {}
+  }
+}

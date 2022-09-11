@@ -1,0 +1,63 @@
+﻿{
+  "UserName": { "caption": "User Name" },
+  "Password": {"caption": "Password", "input": "Password" },
+  "HospitalID": {
+    "caption": "Hospital ID"
+
+  },
+  "DateOfBirth": {"caption": "Date of Birth"},
+  "Name": { "caption": "Name" },
+  "Age": { "caption": "Age" },
+  "PhoneNumber": { "caption": "Phone Number" },
+  "Address": {
+    "caption": "Address",
+    "width": 150
+  },
+  "Gender": {
+    "caption": "Gender",
+    "input": "Combo",
+    "options": "Nam;Nữ"
+  },
+  "Specialization": {
+    "caption": "Specialization",
+    "input": "Combo",
+    "options": "Đa khoa;Thần kinh;Tim mạch;Nội khoa;Nội Thận;Nội tiết;Nội hô hấp;Khoa ngoại tổng hợp;Khoa tiêu hóa;Khoa tiết niệu"
+  },
+  "Patients": { "caption": "Patients" },
+  "DiseaseName": {
+    "caption": "Disease Name",
+    "input": "Combo",
+    "options": "Tim mạch;Tiểu đường;Ung thư"
+  },
+  "City": { "caption": "City" },
+  "District": { "caption": "District" },
+  "Ward": { "caption": "Ward" },
+  "Details": { "caption": "Details" },
+  "PatientID": {
+    "caption": "Patient ID"
+  },
+  "DoctorName": { "caption": "Doctor Name" },
+  "PatientName": {"caption": "Patient Name"},
+  "DoctorID": {"caption": "Doctor ID"},
+  "ListIndex": {
+    "caption": "List of Index",
+    "input": "Combo",
+    "options": "Temperature;Pulse rate;Blood pressure;Blood glucose;Oxygen in human blood"
+  },
+  "Value": {
+    "caption": "Value"
+  },
+  "Unit": {
+    "caption": "Unit",
+    "input": "Combo",
+    "options": "C;mmHg;nhịp/phút;%;mmol/L;mg/dL"
+  },
+  "LastMeasure": {
+    "caption": "List Measure"
+  },
+  "Email": {
+    "caption": "Email",
+    "width": 150
+  }
+
+}
